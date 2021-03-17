@@ -20,7 +20,7 @@ AutoReq: no
 %if %{with debug}
 %global _dwz_low_mem_die_limit 0
 %else
-%global debug_package %{nil}
+#%global debug_package %{nil}
 %endif
 
 %define SHA256SUM0 08f057ece7e518b14cce2e9737228a5a899a7b58b78248a03e02f4a6c079eeaf
